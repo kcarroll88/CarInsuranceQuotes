@@ -43,10 +43,11 @@ namespace CarInsuranceQuotes.Controllers
                     db.SaveChanges();
                 }
             }
+
             return View("Success");
         }
 
-        public ActionResult Admin()
+        public ActionResult Quote()
         {
             return View();
         }
